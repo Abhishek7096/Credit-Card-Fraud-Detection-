@@ -35,7 +35,7 @@ The main goal is to build a model that:
 ## 📊 Results
 
 ### 🔹 Confusion Matrix Heatmap
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 - True Negatives (Correctly predicted non-fraud): **56,847**  
 - False Positives (Normal marked as fraud): **17**  
@@ -57,21 +57,21 @@ The main goal is to build a model that:
 ---
 
 ### 🔹 ROC Curve
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](roc_curve.png)
 
 - The model achieved an **AUC of 0.97**, indicating excellent ability to separate fraud from non-fraud cases.  
 
 ---
 
 ### 🔹 Class Distribution
-![Fraud Distribution](images/class_distribution.png)
+![Fraud Distribution](class_distribution.png)
 
 - Fraud cases are **extremely rare**, highlighting the importance of handling imbalance.  
 
 ---
 
 ### 🔹 Feature Importance
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](feature_importance.png)
 
 - Features **V17, V14, V12, and V10** contributed most to fraud detection.  
 - `Amount` also played a role in distinguishing fraudulent transactions.  
